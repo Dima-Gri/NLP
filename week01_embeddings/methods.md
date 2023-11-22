@@ -16,5 +16,8 @@ FastText почти в точности идентичен Word2Vec, за иск
 
 ![image](https://github.com/Dima-Gri/NLP/assets/60757623/e73d216c-3001-43d6-bbac-c60597dddcfe)
 
+В 1.5 раза медленее обычного SGNS
+
+
 Статья: https://arxiv.org/pdf/1607.04606.pdf
 

@@ -5,6 +5,8 @@ t-SNE https://distill.pub/2016/misread-tsne/  (https://datareview.info/article/a
 
 ## Skip gram model
 
+Word2Vec статья: https://arxiv.org/pdf/1411.2738.pdf
+
 Дает очень близкие результаты с SVD
 
 

@@ -14,7 +14,7 @@ The size of the sliding window has a strong effect on the resulting vector simil
 * [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (прочитано)
 
 
-$$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - s(w_{t+j}, w_t) + \log \sum_{w\in V} exp(s(w, w_t))$$
+$$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - s(w_{t+j}, w_t) + \log \sum_{w\in V} exp(s(w, w_t))$$, где $s(a, b) = u_{a}^Tv_b$
 
 Дает очень близкие результаты с SVD
 

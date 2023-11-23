@@ -5,8 +5,8 @@ t-SNE https://distill.pub/2016/misread-tsne/  (https://datareview.info/article/a
 
 ## Skip gram model
 
-* [word2vec Parameter Learning Explained](https://arxiv.org/pdf/1411.2738.pdf) <span style="color:blue">(не прочитано)</span>
-* [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) (не прочитано)
+* [word2vec Parameter Learning Explained](https://arxiv.org/pdf/1411.2738.pdf) (**не прочитано**)
+* [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) (**не прочитано**)
 * [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (прочитано)
 
 Дает очень близкие результаты с SVD

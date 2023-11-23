@@ -16,7 +16,7 @@ t-SNE https://distill.pub/2016/misread-tsne/  (https://datareview.info/article/a
 HAL model учитывает дистанцию, на которой контекстное слово находится относительно центрального. Чем ближе к центру, тем больший вклад в контекст, тем больше связи между центральными и контекстными словами.
 
 
-[статья](https://link.springer.com/content/pdf/10.3758/BF03204766.pdf) (прочитано)
+[HAL model](https://link.springer.com/content/pdf/10.3758/BF03204766.pdf) (прочитано)
 
 ## FastText
 FastText почти в точности идентичен Word2Vec, за исключением формирования векторов. Общий пайплайн обучения такой же
@@ -26,5 +26,5 @@ FastText почти в точности идентичен Word2Vec, за иск
 В 1.5 раза медленее обычного SGNS
 
 
-[статья](https://arxiv.org/pdf/1607.04606.pdf) (прочитано)
+[FastText](https://arxiv.org/pdf/1607.04606.pdf) (прочитано)
 

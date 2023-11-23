@@ -5,6 +5,9 @@ t-SNE https://distill.pub/2016/misread-tsne/  (https://datareview.info/article/a
 
 ## Skip gram model
 
+The Effect of Window Size
+The size of the sliding window has a strong effect on the resulting vector similarities. For example, this paper notes that larger windows tend to produce more topical similarities (i.e. dog, bark and leash will be grouped together, as well as walked, run and walking), while smaller windows tend to produce more functional and syntactic similarities (i.e. Poodle, Pitbull, Rottweiler, or walking, running, approaching).
+
 * [word2vec Parameter Learning Explained](https://arxiv.org/pdf/1411.2738.pdf) (**не прочитано**)
 * [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) (**не прочитано**)
 * [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (прочитано)

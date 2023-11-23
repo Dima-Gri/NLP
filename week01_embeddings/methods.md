@@ -13,8 +13,13 @@ The size of the sliding window has a strong effect on the resulting vector simil
 * [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) (**не прочитано**)
 * [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (прочитано)
 
+**Skip-Gram (SG)**
 
 $$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - s(w_{t+j}, w_t) + \log \sum_{w\in V} exp(s(w, w_t)) \text{   , где   } s(a, b) = u_{a}^Tv_b$$
+
+**Skip-Gram negative sempling (SGNS)**
+
+$$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - \log (s(w_{t+j}, w_t)) + \log \sum_{w\in V_k} log(1 - s(w, w_t)) \text{   , где   } s(a, b) = \Sigma(u_{a}^Tv_b)$$
 
 Дает очень близкие результаты с SVD
 

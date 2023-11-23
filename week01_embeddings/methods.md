@@ -19,7 +19,7 @@ $$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - s(w_{t+j}, w_t) +
 
 **Skip-Gram negative sempling (SGNS)**
 
-$$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - \log (s(w_{t+j}, w_t)) + \sum_{w\in V_k} log(1 - s(w, w_t)) \text{   , где   } s(a, b) = \Sigma(u_{a}^Tv_b)$$
+$$\mathbf{Loss} = -\dfrac{1}{T} \sum_{t=1}^T\sum_{|j|\le m}  - \log (s(w_{t+j}, w_t)) + \sum_{w\in V_k} log(1 - s(w, w_t)) \text{   , где   } s(a, b) = \sigma(u_{a}^Tv_b)$$
 
 Дает очень близкие результаты с SVD
 

@@ -1,7 +1,8 @@
-PCA - способ изменить размерность ебмбендингов
+## Embending geometry
 
-
-t-SNE https://distill.pub/2016/misread-tsne/  (https://datareview.info/article/algoritm-t-sne-illyustrirovannyiy-vvodnyiy-kurs/)
+* [The strange geometry of skip-gram with negative sampling](https://aclanthology.org/D17-1308.pdf) (**не прочитано**)
+* PCA - способ изменить размерность ебмбендингов (**не прочитано**)
+* t-SNE: [статья1](https://distill.pub/2016/misread-tsne/), [статья2](https://datareview.info/article/algoritm-t-sne-illyustrirovannyiy-vvodnyiy-kurs/) (**не прочитано**)
 
 ## Skip gram model
 
@@ -13,6 +14,11 @@ The size of the sliding window has a strong effect on the resulting vector simil
 * [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (прочитано)
 
 Дает очень близкие результаты с SVD
+
+## GLOVE
+Объединение Word2Vec и Count-based метода на основе матрицы PMI
+
+[GLOVE](https://aclanthology.org/D14-1162.pdf) (**не прочитано**)
 
 
 ## HAL model
@@ -30,4 +36,8 @@ FastText почти в точности идентичен Word2Vec, за иск
 
 
 [FastText](https://arxiv.org/pdf/1607.04606.pdf) (прочитано)
+
+
+## на досуге
+[Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)
 
